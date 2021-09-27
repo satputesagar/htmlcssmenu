@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* background images */
+.bgimage{
+    width: 100%;
+    height: 100vh;
+ background-image: linear-gradient(27deg, #004E95 50%, #013A6B 50%);
+}
+
+h2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    word-spacing: 10px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    text-shadow: -2px 2px 1px #0A84C6;
+   }
+   /* form design center div */
+.centerdiv{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(27deg, #013A6B 50%, #004E95 50%);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+   }
+ 
+  /* .iptName{
+      display: inline;
+      padding: 0 10px;
+      box-sizing: border-box;
+  } */
+/* input{
+      width:calc(50%);
+      height: 30px;
+      /* display: block; 
+    box-sizing :border-box;
+   }  */
+
+
+   /* input buttons using class */
+   .inputBox{
+    width: calc(100% - 40px);
+ height: 30px;
+ display: block;
+ margin: auto;
+ padding: 0 10px;
+ box-sizing: border-box;
+}
+/* placeholder design */
+::placeholder{
+    letter-spacing: 2px;
+    color: black;
+}
+/* label design */
+
+.lbl{
+    text-align: center;
+    display: block;
+}
+h3.lbl {
+    line-height: 1.3;
+    font-size: 37px;
+    letter-spacing: -0.003em;
+    font-weight: 300;
+}
+/* div 2 button combo design */
+.btn-inline{
+    /* text-align: center; */
+    border:none;
+    /* background-color:  ; */
+    /* display: inline-block; */
+    /* display: fix; */
+    /* width: calc(100% -40px); */
+    height: 30px;
+    margin: auto;
+    color: white;
+}
+/* left side button  */
+.btn-green{
+  float: left;
+  /* text-align:justify; */
+  /* display: fix; */
+    background-color: #0A84C6;
+    padding: 10px 21px 2px 97px;
+    border-radius: 70px;
+}
+
+/* right side button */
+ .btn-red{
+   float: right;
+   /* text-align: center; */
+    background-color:#0A84C6;
+    padding: 10px 21px 2px 97px;
+    border-radius: 70px;
+}
+ /* /background-color: #0A84C6; */

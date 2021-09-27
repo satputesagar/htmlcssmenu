@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#header{
+    margin: 0;
+    padding: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: aqua;
+    display: inline;
+    line-height: center;
+
+}
+.logo{
+   
+    float: left;
+    background-color: green;
+}
+nav{
+    float: right;
+
+    background-color: grey;
+    list-style: none;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    word-spacing: 20px;
+   
+}
+li{
+    display: inline;
+   
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: brown;
+}

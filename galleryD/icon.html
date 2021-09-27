@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>icon set</title>
+    <!-- icon links -->
+
+    <link rel="shortcut icon" href="/S-L-form/img_avatar.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div {
+            margin: 20%;
+        }
+
+        body {
+            background-color: rgb(150, 150, 175);
+
+        }
+
+        /* button create */
+        button {
+            font-size: 24px;
+            padding: 20px 40px;
+            border: 2px solid black;
+            border-radius: 10px;
+            position: relative;
+            background: transparent;
+            color: white;
+            cursor: pointer;
+            overflow: hiddens;
+        }
+
+        /*  create after btn */
+        button::after {
+            content: " ";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: royalblue;
+            width: 0;
+            height: 0;
+            transition: 1s;
+            transform: translate(-50%, -50%);
+            border-radius: 20%;
+            z-index: -1;
+        }
+
+        button:hover::after {
+            width: 160px;
+            height: 70px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="border: 1px solid red;"> hello icon setting </h1>
+
+</body>
+
+
+
+<div>
+    <button>button</button>
+</div>
+
+</html>

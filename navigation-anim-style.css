@@ -1,0 +1,69 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+nav >a{
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin:1em;
+    position: relative;
+
+}
+nav >a:before, nav>a:after{
+    content:"";
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    transition: all .5s ease-in-out;
+    -webkit-transition:all .5s ease-in-out ;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition:all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    opacity: 0;
+
+}
+nav > a:before{
+    top: 0px;
+    transform: translateY(-20px);
+    -moz-transform:translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+nav > a:after{
+    left: 0px;
+    bottom: 0px;
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+nav > a:hover:before{
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    opacity: 10; 
+}
+nav > a:hover:after{
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    opacity: 10;
+}

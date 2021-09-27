@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registr form</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <div class="bgimage">
+
+    </div>
+
+    <!--
+        1.form title
+       
+       
+        2.student name
+        frist name last middle name:
+
+        3.dataofbirth
+        4.addre
+        ss
+         
+        6.number mobile
+        button. 2 
+        1 submit  , 2 clean
+-->
+
+    <form action="database.php" class="centerdiv">
+        <h2> login form</h2>
+
+        <!-- <div class="iptName">-->
+        <!-- <label for="frname">first </label>
+            <input type="text" placeholder=" FirstName" name="first"><br>
+            <label for="midname">middle</label><input type="text" placeholder="middleName" name="middle">
+            <br><label for="lastName"> last</label><input type="text" placeholder="lastName" name="last"> -->
+        <!-- </div> -->
+        <label for="fullName" class="lbl">FullName</label>
+        <input type="text" name="name " class="inputBox" placeholder="student name" id="name">
+        <br />
+        <label for="DOB" class="lbl">dataOfbirth</label>
+        <input type="date" class="inputBox" name="dataofbirth" id="dob">
+        <br />
+        <label for="email" class="lbl">Email Id</label>
+        <input type="email" name="email" placeholder="Email" class="inputBox" id="email">
+        <br />
+        <label for="address" class="lbl">Address</label>
+        <input type="text" name="address" placeholder="Address" class="inputBox" width="25px" height="25px" id="ads">
+        <br />
+        <label for="gender" class="lbl"> Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="male" id="male" required /> &nbsp;male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="female" id="female" required>&nbsp;female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="other" id="other" required />&nbsp;other
+        <br />
+        <br />
+        <label class="lbl">mobile Number</label>
+        <input type="tel" name="number" class="inputBox" id="number">
+        <br />
+        <div class="btn-inline">
+            <input type="submit" class="btn-green" value="submit">
+            <input type="reset" class="btn-red" value="clear">
+        </div>
+    </form>
+</body>
+
+</html>
